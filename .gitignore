@@ -1,0 +1,41 @@
+# Archivos de sistema y carpetas ocultas (Mac)
+.DS_Store
+Thumbs.db
+
+# Entornos virtuales
+venv/
+.env
+*.env
+
+# Archivos de configuración de VS Code
+.vscode/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos generados por Jupyter Notebook
+.ipynb_checkpoints/
+
+# Modelos entrenados y archivos binarios grandes
+model.joblib
+model.pkl
+
+# Archivos de logs y depuración
+logs/
+*.log
+
+# Archivos de salida y temporales
+*.bak
+*.swp
+*.swo
+*.tmp
+*.cache
+
+# Ignorar resultados generados pero permitir datos de entrada
+!data/raw.csv
+!data/inference.csv
+data/prep.csv
+data/predictions.csv
+data/trained_columns.json
