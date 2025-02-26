@@ -1,0 +1,8 @@
+docker build -t container_train .
+
+docker run \
+    -it \
+    --rm \
+    -v /Users/ulisesreyes/Documents/Archivos/Maestría/Cursos/'2do Semestre'/'Gran Escala'/Tareas/'Tarea 5'/tarea5_docker/container_train:/usr/app \
+    container_train \
+    --input data/prep.csv --output_model model.joblib --output_columns data/trained_columns.json --target SalePrice

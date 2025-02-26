@@ -1,0 +1,8 @@
+docker build -t container_prep .
+
+docker run \
+    -it \
+    --rm \
+    -v /Users/ulisesreyes/Documents/Archivos/Maestría/Cursos/'2do Semestre'/'Gran Escala'/Tareas/'Tarea 5'/tarea5_docker/container_prep:/usr/app \
+    container_prep \
+    --input data/raw.csv --output data/prep.csv --target SalePrice

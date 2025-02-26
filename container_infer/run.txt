@@ -1,0 +1,8 @@
+docker build -t container_infer .
+
+docker run \
+    -it \
+    --rm \
+    -v /Users/ulisesreyes/Documents/Archivos/Maestría/Cursos/'2do Semestre'/'Gran Escala'/Tareas/'Tarea 5'/tarea5_docker/container_infer:/usr/app \
+    container_infer \
+    --input data/inference.csv --model model.joblib --columns data/trained_columns.json --output data/predictions.csv
