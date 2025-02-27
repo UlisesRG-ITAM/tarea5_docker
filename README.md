@@ -12,8 +12,7 @@ El presente respoitorio contiene 3 carpetas, dentro de las cuales se encuentra e
 ============
 # Documentación
 
-La carpeta (componente) **container_train** contiene documentación en Sphinx.
+Las siguientes carpetas (componentes) contienen documentación en Sphinx:
 
-Para leer el documento:
-
-container_train/docs/build/html/index.html
+ 1. **container_train**: container_train/docs/build/html/index.html
+ 2. **container_infer**: container_infer/docs/build/html/index.html
