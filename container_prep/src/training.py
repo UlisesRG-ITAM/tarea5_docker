@@ -1,6 +1,7 @@
 """
-Este módulo contiene las funciones necesarias 
-para realizar el entrenamiento de un modelo basado en XGBoost.
+Módulo 'training.py'
+
+    Este módulo contiene las funciones necesarias para realizar el entrenamiento de un modelo basado en XGBoost.
 """
 
 import pandas as pd

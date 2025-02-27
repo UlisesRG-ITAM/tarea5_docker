@@ -1,5 +1,8 @@
 """
-Script que ejecuta el entrenamiento del modelo.
+Componente Trainer (train.py)
+
+    Script que ejecuta el entrenamiento del modelo.
+    
 """
 import logging
 import argparse

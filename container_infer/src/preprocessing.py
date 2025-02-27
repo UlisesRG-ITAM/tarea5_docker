@@ -1,6 +1,7 @@
 """
-Este módulo contiene las funciones necesarias 
-para poder realizar el pre-procesamiento de variables.
+Módulo 'preprocessing.py'
+
+    Este módulo contiene las funciones necesarias para poder realizar el pre-procesamiento de variables.
 """
 
 import pandas as pd
