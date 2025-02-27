@@ -1,5 +1,8 @@
 """
-Script que ejecuta la inferencia del modelo.
+Componente Inferer (inference.py)
+
+    Script que ejecuta la inferencia del modelo.
+
 """
 import logging
 import argparse

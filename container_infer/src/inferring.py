@@ -1,6 +1,7 @@
 """
-Este módulo contiene las funciones necesarias 
-para realizar el la predicción dado un conjunto nuevo de datos.
+Módulo 'inferring.py'
+
+    Este módulo contiene las funciones necesarias para realizar el la predicción dado un conjunto nuevo de datos.
 """
 import pandas as pd
 import joblib
